@@ -29,12 +29,12 @@ while(i>0):
     else:  
         print("Option not found , please try again")    
 
-with open("python_projects/guess_the_number/hiscore.txt", "r") as f:
+with open("hiscore.txt", "r") as f:
      hiscore = int(f.read())
      
 
 if(i<hiscore):
     print("you have just broken the high score !")
-    with open("python_projects/guess_the_number/hiscore.txt", "w") as f:
+    with open("hiscore.txt", "w") as f:
         f.write(str(i-1))      
     
