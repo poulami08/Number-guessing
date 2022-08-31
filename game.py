@@ -8,7 +8,7 @@ import random
 
 print("                                                  ****** GUESS THE NUMBER *******                  ")
 print(" ")
-rand = random.randint(1,101)
+rand = random.randint(1,100)
 i=1
 while(i>0):
     print("User - guess the number")
